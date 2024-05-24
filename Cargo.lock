@@ -326,6 +326,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "chat-prompts"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4eb609ea4fdde67b1e663f1280cefe13396d24d4b34ef0590fc7a96910d58189"
+dependencies = [
+ "base64 0.22.0",
+ "clap",
+ "endpoints",
+ "enum_dispatch",
+ "image",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
 name = "chrono"
 version = "0.4.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1091,11 +1107,11 @@ checksum = "01cda141df6706de531b6c46c3a33ecca755538219bd484262fa09410c13539c"
 
 [[package]]
 name = "llama-core"
-version = "0.10.1"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c0a61368e9e17cae08093ddcb8635d3139bced30860068f0f50155305576247"
+checksum = "fa38b531a6272e8ced627aa9d4236d21b0166619d9f922e6882dfe0885f6edc3"
 dependencies = [
- "chat-prompts",
+ "chat-prompts 0.8.0",
  "endpoints",
  "futures",
  "futures-util",
@@ -1606,7 +1622,7 @@ name = "rag-api-server"
 version = "0.6.0"
 dependencies = [
  "anyhow",
- "chat-prompts",
+ "chat-prompts 0.7.1",
  "clap",
  "endpoints",
  "futures",
