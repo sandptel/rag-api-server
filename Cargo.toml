@@ -15,7 +15,7 @@ hyper_wasi = { version = "0.15", features = ["full"] }
 tokio_wasi = { version = "1", features = ["full"] }
 thiserror = "1"
 uuid = { version = "1.4", features = ["v4", "fast-rng", "macro-diagnostics"] }
-clap = { version = "4.4.6", features = ["cargo"] }
+clap = { version = "4.5.7", features = ["cargo"] }
 once_cell = "1.18"
 mime_guess = "2.0.4"
 futures-util = "0.3"
