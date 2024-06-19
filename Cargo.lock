@@ -496,7 +496,7 @@ checksum = "c38aa968c8efd089533e6161f5f2534f0e1303ee65f19ccacbde429f1b8a75d7"
 dependencies = [
  "indexmap 2.2.6",
  "serde",
- "url 2.5.0",
+ "url 2.5.2",
 ]
 
 [[package]]
@@ -1621,7 +1621,7 @@ dependencies = [
  "serde_yaml",
  "thiserror",
  "tokio_wasi",
- "url 2.5.0",
+ "url 2.5.2",
  "uuid",
 ]
 
@@ -1907,7 +1907,7 @@ dependencies = [
  "tokio-util_wasi",
  "tokio_wasi",
  "tower-service",
- "url 2.5.0",
+ "url 2.5.2",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "wasm-streams",
@@ -2475,9 +2475,9 @@ dependencies = [
 
 [[package]]
 name = "url"
-version = "2.5.0"
+version = "2.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "31e6302e3bb753d46e83516cae55ae196fc0c309407cf11ab35cc51a4c2a4633"
+checksum = "22784dbdf76fdde8af1aeda5622b546b422b6fc585325248a2bf9f5e41e94d6c"
 dependencies = [
  "form_urlencoded",
  "idna 0.5.0",
