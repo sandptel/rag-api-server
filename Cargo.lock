@@ -317,7 +317,7 @@ checksum = "4dc1c74be8bfa3a25f6bee8a619da567c5ee8053b62be1a0fa89fcc0dc7dd63d"
 dependencies = [
  "base64 0.22.0",
  "clap",
- "endpoints",
+ "endpoints 0.8.2",
  "enum_dispatch",
  "image",
  "serde",
@@ -490,9 +490,20 @@ dependencies = [
 
 [[package]]
 name = "endpoints"
-version = "0.8.0"
+version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c38aa968c8efd089533e6161f5f2534f0e1303ee65f19ccacbde429f1b8a75d7"
+checksum = "361f8223077555a84bb0179e54dfe94570c6de76623e6b6f860a59736f0df5de"
+dependencies = [
+ "indexmap 2.2.6",
+ "serde",
+ "url 2.5.0",
+]
+
+[[package]]
+name = "endpoints"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "58f836dac069070326c3c723c8f964292363fbab47e4f375b96ae2b7f7e894be"
 dependencies = [
  "indexmap 2.2.6",
  "serde",
@@ -1096,7 +1107,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0c0a61368e9e17cae08093ddcb8635d3139bced30860068f0f50155305576247"
 dependencies = [
  "chat-prompts",
- "endpoints",
+ "endpoints 0.8.2",
  "futures",
  "futures-util",
  "once_cell",
@@ -1608,7 +1619,7 @@ dependencies = [
  "anyhow",
  "chat-prompts",
  "clap",
- "endpoints",
+ "endpoints 0.9.0",
  "futures",
  "futures-util",
  "hyper_wasi",
